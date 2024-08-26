@@ -10,7 +10,7 @@
     "bindings": {
       "cmd-h": null,
       "cmd-m": null,
-      "cmd-ctl-w": "workspace::CloseWindow"
+      "cmd-ctrl-w": "workspace::CloseWindow"
     }
   },
   {
