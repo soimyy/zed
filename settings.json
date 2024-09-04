@@ -33,14 +33,12 @@
         "require_config_file": true
       }
     },
-    "lsp": {
-      "eslint": {
-        "settings": {
-          "codeActionOnSave": {
-            "rules": [
-              "import/order"
-            ]
-          }
+    "eslint": {
+      "settings": {
+        "codeActionOnSave": {
+          "rules": [
+            "import/order"
+          ]
         }
       }
     }
