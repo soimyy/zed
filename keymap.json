@@ -16,7 +16,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
+      // "alt-cmd-o": ["projects::OpenRecent", { "create_new_window": true }],
       "ctrl-i": "terminal_panel::ToggleFocus",
       "ctrl-u": "project_panel::ToggleFocus",
       "ctrl-s": "workspace::SaveAll",
@@ -26,10 +26,20 @@
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-=": "editor::GoToDefinition",
+      // "f12": "editor::GoToDefinition",
+      // "alt-f12": "editor::GoToDefinitionSplit",
+      // "cmd-f12": "editor::GoToTypeDefinition",
+      // "alt-cmd-f12": "editor::GoToTypeDefinitionSplit",
+      // "shift-f12": "editor::GoToImplementation",
+      // "ctrl-f12": "editor::GoToDeclaration",
+      // "alt-ctrl-f12": "editor::GoToDeclarationSplit"
+
+      "ctrl-=": "editor::GoToDefinitionSplit",
+      "alt-cmd-f11": "editor::GoToTypeDefinitionSplit",
       "shift-space": "editor::ShowCompletions",
-      "ctrl-/": ["editor::ToggleComments", { "advance_downwards": false }]
-      // "j k": ["workspace::SendKeystrokes", "escape"]
+      "ctrl-/": ["editor::ToggleComments", { "advance_downwards": false }],
+      "ctrl-cmd-p": ["editor::MovePageUp", { "center_cursor": true }],
+      "ctrl-cmd-n": ["editor::MovePageDown", { "center_cursor": true }]
     }
   },
   {
