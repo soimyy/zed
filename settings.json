@@ -22,11 +22,6 @@
     "source.fixAll.biome": true,
     "source.organizeImports.biome": true
   },
-  "formatter": {
-    "language_server": {
-      "name": "biome"
-    }
-  },
   "lsp": {
     "biome": {
       "settings": {
@@ -36,9 +31,7 @@
     "eslint": {
       "settings": {
         "codeActionOnSave": {
-          "rules": [
-            "import/order"
-          ]
+          "rules": ["import/order"]
         }
       }
     }

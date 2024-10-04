@@ -35,11 +35,13 @@
       // "alt-ctrl-f12": "editor::GoToDeclarationSplit"
 
       "ctrl-=": "editor::GoToDefinitionSplit",
-      "alt-cmd-f11": "editor::GoToTypeDefinitionSplit",
+      "ctrl-cmd-=": "editor::GoToImplementationSplit",
       "shift-space": "editor::ShowCompletions",
       "ctrl-/": ["editor::ToggleComments", { "advance_downwards": false }],
       "ctrl-cmd-p": ["editor::MovePageUp", { "center_cursor": true }],
-      "ctrl-cmd-n": ["editor::MovePageDown", { "center_cursor": true }]
+      "ctrl-cmd-n": ["editor::MovePageDown", { "center_cursor": true }],
+      "ctrl-shift-l": "editor::ConvertToLowerCase",
+      "ctrl-shift-u": "editor::ConvertToUpperCase"
     }
   },
   {
